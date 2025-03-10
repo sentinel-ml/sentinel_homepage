@@ -1,3 +1,5 @@
+'use client';
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FaShieldAlt, FaRobot, FaSync, FaCheckCircle } from "react-icons/fa";
@@ -25,7 +27,7 @@ export default function SentinelHomepage() {
           AI-Powered Fraud Detection for Financial Security
         </motion.h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-6">
-          Sentinel’s advanced AI detects financial fraud in real-time, securing businesses worldwide.
+          Sentinel's advanced AI detects financial fraud in real-time, securing businesses worldwide.
         </p>
         <Button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 text-lg">See Sentinel in Action</Button>
       </section>
